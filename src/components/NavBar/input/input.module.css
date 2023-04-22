@@ -1,0 +1,19 @@
+.autocomplete {
+    position: relative;
+}
+
+.autocomplete_items {
+    position: absolute;
+    z-index: 99;
+    background-color: #dbdbdb94;
+    color: var(--color);
+    margin-top: 5px;
+    border-radius: 5px;
+    border-color: #757575;
+}
+
+.autocomplete_items p{
+    border-bottom: 1px solid var(--color);
+    cursor: pointer;
+    padding: 5px;
+}

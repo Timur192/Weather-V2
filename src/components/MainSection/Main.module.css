@@ -1,0 +1,30 @@
+.main {
+  position: relative;
+  width: 700px;
+  height: 270px;
+  background-color: var(--section-color);
+  color: var(--color);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  transition: background-color 200ms linear;
+  background-size: 1000px;
+}
+
+.main img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  height: auto;
+}
+
+.weatherData {
+  position: absolute;
+  bottom: 10;
+}
+
+.weatherData h3 {
+  font-size: 90px;
+}

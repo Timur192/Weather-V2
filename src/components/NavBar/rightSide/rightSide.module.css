@@ -1,0 +1,20 @@
+.switch {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 0;
+  margin-right: 10px;
+}
+
+.switch div {
+  cursor: pointer;
+}
+
+.switch img {
+  display: block;
+  align-items: flex-end;
+}
+
+.langsBTN p{
+  color: var(--color);
+}

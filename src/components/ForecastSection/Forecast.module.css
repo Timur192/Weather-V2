@@ -1,0 +1,48 @@
+.main {
+  width: 700px;
+  display: flex;
+  height: 240px;
+  background-color: var(--section-color);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow-x: auto;
+  transition: background-color 200ms linear;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: var(--color);
+  width: 100px;
+  background: var(--background-color);
+  border-radius: 5px;
+  margin: 10px 6px 10px 10px;
+}
+
+.container img{
+  width: 70px;
+  margin: 10px 20px;
+}
+
+.container p{
+  color: #757575;
+}
+
+.weatherForecast img {
+  width: 75px;
+}
+
+.main::-webkit-scrollbar {
+  width: 20px;
+}
+
+.main::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.main::-webkit-scrollbar-thumb {
+  background: var(--scroll-color);
+  border-radius: 5px;
+}

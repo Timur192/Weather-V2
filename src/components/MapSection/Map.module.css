@@ -1,0 +1,6 @@
+.main {
+    width: 700px;
+    height: 270px;
+    background-color: var(--section-color);
+    border-radius: 10px;
+}
