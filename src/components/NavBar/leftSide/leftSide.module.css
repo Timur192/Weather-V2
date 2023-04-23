@@ -11,3 +11,9 @@
 .logo h1 {
   padding-left: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  .logo h1 {
+    display: none;
+  }
+}

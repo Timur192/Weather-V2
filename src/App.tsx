@@ -10,12 +10,12 @@ function App() {
    <>
    <NavBar />
       <main className={styles.main}>
-        <div>
+        <div className={styles.leftColumn}>
           <MainSection />
           <ForecastSection />
           <MapSection />
         </div>
-        <div>
+        <div className={styles.rightColumn}>
           <NewsSection />
         </div>
       </main>
