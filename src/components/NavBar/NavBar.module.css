@@ -8,4 +8,5 @@
   background-color: var(--nav-bar-background-color);
   color: var(--color);
   transition: background-color 200ms linear;
+  transition: width 0.5s ease-in-out;
 }
