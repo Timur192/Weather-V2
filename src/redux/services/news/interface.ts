@@ -1,21 +1,17 @@
 export interface Root {
   status: string
-  totalResults: number
-  articles: Article[]
+  news: News[]
+  page: number
 }
 
-export interface Article {
-  source: Source
-  author: string
+export interface News {
+  id: string
   title: string
   description: string
   url: string
-  urlToImage: string
-  publishedAt: string
-  content: string
-}
-
-export interface Source {
-  id: any
-  name: string
+  author: string
+  image: string
+  language: string
+  category: string[]
+  published: string
 }

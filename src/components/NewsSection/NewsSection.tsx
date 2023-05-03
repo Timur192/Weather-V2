@@ -20,7 +20,7 @@ export default function SecondSection() {
         <Skeleton />
       ) : data ? (
         <>
-          {data?.articles.map((items) => (
+          {data?.news.map((items) => (
             <div key={items.url}>
               <NewsCard data={items} />
             </div>

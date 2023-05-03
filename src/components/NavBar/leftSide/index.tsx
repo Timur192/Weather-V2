@@ -7,10 +7,10 @@ export default function index() {
   return (
     <div className={styles.logo}>
         <img
-          src="/weather-icon.svg"
-          alt="Picture of the author"
-          width={50}
-          height={50}
+          src="/weather-icon.png"
+          alt="Weather Icon"
+          width={40}
+          height={40}
         />
         <h1>{t('Weather')}</h1>
       </div>
